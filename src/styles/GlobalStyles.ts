@@ -7,4 +7,24 @@ export default createGlobalStyle`
     box-sizing: border-box;
     outline: 0;
   }
+
+  html, body, #root {
+    height: 100%;
+  }
+
+  body {
+    font: 14px 'Roboto', sans-serif;
+    background: ${(props) => props.theme.colors.background};
+    color:  ${(props) => props.theme.colors.text};
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  button {
+    cursor: pointer;
+    border: 0;
+  }
 `;
