@@ -1,4 +1,8 @@
+<h1 align="center">
+  Task Manager
+</h1>
 
+## Techs
 - ReactJS
 - TypeScript
 - Styled-components
@@ -6,10 +10,15 @@
 - Prettier
 - Editor Config
 
-## Available Scripts
+<p align="center">
+  <img alt="Coffee express" src=".github/site.gif" width="620">
+</p>
 
-In the project directory, you can run:
-1. Clone the repository: `git clone link-repository`
-2. Run `yarn install`
-3. Run `yarn start`
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running locally
+
+```sh
+yarn install
+
+yarn start
+```
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
