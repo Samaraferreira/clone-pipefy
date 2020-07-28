@@ -1,5 +1,5 @@
 <h1 align="center">
-  Task Manager
+  Task Manager with theme switcher
 </h1>
 
 ## Techs
@@ -11,7 +11,7 @@
 - Editor Config
 
 <p align="center">
-  <img alt="Coffee express" src=".github/site.gif" width="620">
+  <img alt="Coffee express" src=".github/task.gif" width="620">
 </p>
 
 ## Running locally
