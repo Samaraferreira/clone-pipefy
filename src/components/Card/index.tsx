@@ -79,7 +79,6 @@ const Card: React.FC<CardProps> = ({ listIndex, index, data }) => {
         ))}
       </header>
       <p>{data.content}</p>
-      {data.user && <img src={data.user} alt="avatar" />}
     </Container>
   );
 };

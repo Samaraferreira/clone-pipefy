@@ -2,7 +2,6 @@ export interface Card {
   id: number;
   content: string;
   labels: string[];
-  user?: string;
 }
 
 export interface Data {
@@ -21,35 +20,28 @@ export function loadLists(): Data[] {
       cards: [
         {
           id: 1,
-          content: 'Estudar módulo 01 de NodeJS',
+          content: 'Estudar módulo 10 de NodeJS',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png',
         },
         {
           id: 2,
-          content:
-            'Criar vídeo para o Youtube ensinando a recriar a interface do Pipefy',
+          content: 'Recriar a interface do Pipefy',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png',
         },
         {
           id: 3,
-          content: 'Estudar módulo 03 de React Native',
+          content: 'Estudar módulo 12 de React Native',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png',
         },
         {
           id: 4,
-          content:
-            'Gravar Aula "NextJS: Utilizando server-side rendering com ReactJS"',
+          content: 'Estudar NextJS',
           labels: ['#54e1f7'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png',
         },
         {
           id: 5,
-          content: 'Gravar testes e deploy ReactJS',
+          content: 'Estudar testes e deploy ReactJS',
           labels: ['#54e1f7'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png',
         },
       ],
     },
@@ -60,9 +52,8 @@ export function loadLists(): Data[] {
       cards: [
         {
           id: 6,
-          content: 'Recriando clone do Pipefy',
+          content: 'Terminar CRUD coffee express',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png',
         },
       ],
     },
@@ -73,19 +64,17 @@ export function loadLists(): Data[] {
       cards: [
         {
           id: 7,
-          content: 'Gravar sobre Geolocalização e mapas com React Native',
+          content: 'Praticar geolocalização e mapas com React Native',
           labels: ['#7159c1'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png',
         },
         {
           id: 8,
-          content: 'Gravar testes e deploy ReactJS',
+          content: 'Praticar testes e deploy ReactJS',
           labels: ['#54e1f7'],
-          user: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/profile.png',
         },
         {
           id: 9,
-          content: 'Ajustes na biblioteca unform',
+          content: 'Ajustes repositórios github',
           labels: ['#54e1f7'],
         },
       ],
@@ -97,8 +86,8 @@ export function loadLists(): Data[] {
       cards: [
         {
           id: 10,
-          content: 'Gravar aula sobre deploy e CI com React Native',
-          labels: ['#54e1f7', '#7159c1'],
+          content: 'Estudar inglês',
+          labels: ['#54e1f7'],
         },
         {
           id: 12,
@@ -108,7 +97,7 @@ export function loadLists(): Data[] {
         {
           id: 13,
           content:
-            'Gravar Aula "Internacionalização de aplicações Node.js, ReactJS e React Native"',
+            'Praticar internacionalização de aplicações Node.js, ReactJS e React Native',
           labels: ['#7159c1'],
         },
       ],
