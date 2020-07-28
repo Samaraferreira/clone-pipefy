@@ -11,7 +11,7 @@
 - Editor Config
 
 <p align="center">
-  <img alt="Coffee express" src=".github/task.gif" width="620">
+  <img alt="Coffee express" src=".github/task2.gif" width="620">
 </p>
 
 ## Running locally
